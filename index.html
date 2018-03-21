@@ -1,0 +1,44 @@
+<!--
+Filename: d:\node_demo\index.html
+Path: d:\node_demo
+Created Date: Monday, March 19th 2018, 4:57:51 pm
+Author: Aamir
+
+Copyright (c) 2018 VLIT
+Revision History
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+</head>
+
+<body>
+    <h1>This is NodeJS</h1>
+    <span>Enter Name:<span><br>
+<input type="text" id="message">
+<button type="button" id="input">Firstname</button><br>
+<span>Enter Lastname:</span><br>
+    <input type="text" id="message" value="">
+    <button type="button" id="button">Lastname</button>
+    <script>
+        var a = document.getElementById("input");
+        a.addEventListener('click', function() {
+            alert(document.getElementById("message").value);
+        });
+        var msg = document.getElementById("button");
+        msg.addEventListener('click', function() {
+            alert(document.getElementById("message").value);
+        });
+    </script>
+</body>
+
+</html>
+
+</body>
+
+</html>
